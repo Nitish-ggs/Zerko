@@ -1,0 +1,76 @@
+body{
+    background-color:#fae9e9;
+}
+
+.main-text{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color:#7469B6;
+  }
+
+.design{
+    color:#AD88C6;
+
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color:rgb(62, 62, 62);
+  }
+
+
+.brand{
+  letter-spacing: 5px;
+}
+
+.jumbo{
+  background-color: #E1AFD1;
+}
+
+.parent{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 0.5fr;
+  width:80%;
+  margin: 100px auto 0 auto;
+  text-align: center;
+  row-gap: 2rem;
+  column-gap: 2rem;
+}
+
+
+.contact{
+  grid-column: span 3;
+}
+
+hr{
+  margin:50px;
+}
+
+.computer{
+  position: relative;
+  top: -100px;
+  left: 0;
+}
+.btn{
+  color:aliceblue;
+}
+
+.girl{
+  position: relative;
+  top: -10px;
+  left: 100px;
+
+}
+
+.intro-bg{
+  background-color: #AD88C6;
+}
+
+.white-text{
+  color:white;
+}
